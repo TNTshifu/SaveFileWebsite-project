@@ -1,14 +1,40 @@
-.body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+ font-family: sans-serif;
+ background-color: black;
+ color: whitesmoke;
+ line-height: 1.6;
 }
 
 header {
-
+    background-color: darkgrey;
+    padding: 1 rem 2 rem;
 }
-nav {
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.hero {
+    background-image: ;
+    text-align: center;
+    padding: 6rem;
+}
+
+.hero-content {
+max-width: 700px;
 }
 
 footer {
-    
+
 }
