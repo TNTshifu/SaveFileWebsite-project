@@ -24,6 +24,44 @@ header {
     margin: 0 auto;
 }
 
+.navbar ul li a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.lang-btn:hover {
+    color: yellowgreen;
+}
+
+.lang-btn.active-lang {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.flag {
+    height: 14px;
+    width: auto;
+    border-radius: 2px;
+    object-fit: cover;
+    display: block;
+}
 
 .hero {
     background-image: ;

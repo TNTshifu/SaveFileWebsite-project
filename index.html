@@ -13,14 +13,17 @@
         <nav class="navbar">
             <a href="index.html" class="logo">Save File</a>
             <ul>
-                <li><a href="index.html" class="active">HOME</a></li>
-                <li><a href="secondpage.html">RESERVATIONS&GAMES</a></li>
-                <li><a href="thirdpage.html">CONTACT</a></li>
+                <li><a href="index.html" class="active" data-key="home-title">HOME</a></li>
+                <li><a href="secondpage.html" data-key="secondpage-title">RESERVATIONS&GAMES</a></li>
+                <li><a href="thirdpage.html" data-key="thirdpage-title">CONTACT</a></li>
             </ul>
 
             <div class="language-switcher">
                 <button class="lang-btn" data-lang="fi">
-                    
+                    <img src="images/FinnishFlag_23x14px.png" alt="Finnish flag" class="flag"> FI
+                </button>
+                <button class="lang-btn" data-lang="en">
+                    <img src="images/EnglishFlag_28x14px.png" alt="English flag" class="flag"> EN
                 </button>
             </div>
 
@@ -31,36 +34,36 @@
 <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>Welcome!</h1>
-            <p>Check out!</p>
-            <a href="secondpage.html" class="btn">Book</a>
+            <h1 data-key="hero-title">Welcome!</h1>
+            <p data-key="hero-text">Check out!</p>
+            <a href="secondpage.html" class="btn" data-key="hero-button">Book</a>
         </div>
     </section>
 
     <section class="features">
         <div class="feature">
-            <h2>Bar and lounge</h2>
+            <h2 data-key="feature1-title">Bar and lounge</h2>
             <p></p>
         </div>
                 <div class="feature">
-            <h2>Videogames</h2>
+            <h2 data-key="feature2-title">Videogames</h2>
             <p></p>
         </div>
                 <div class="feature">
-            <h2>Events</h2>
+            <h2 data-key="feature3-title">Events</h2>
             <p></p>
         </div>
                 <div class="feature">
-            <h2>Quizzes</h2>
+            <h2 data-key="feature4-title">Quizzes</h2>
             <p></p>
         </div>
                 <div class="feature">
-            <h2>Drinks & Snacks</h2>
+            <h2 data-key="feature5-title">Drinks & Snacks</h2>
             <p></p>
         </div>
                 </div>
                 <div class="feature">
-            <h2>Boardgames</h2>
+            <h2 data-key="feature6-title">Boardgames</h2>
             <p></p>
         </div>
     </section>
@@ -69,7 +72,7 @@
 
     <footer>
         <link rel="stylesheet" href="">
-        <p>&copy; 2025 Save File. All rights reserved.</p>
+        <p data-key="footer-text"> &copy; 2025 Save File. All rights reserved.</p>
     </footer>
 
     <script src="js/main.js"></script>
